@@ -10,7 +10,6 @@ public class GithubEnterprisePageOpen {
   @BeforeAll
   static void beforeAll() {
       Configuration.browserSize = "1920x1080";
-      Configuration.holdBrowserOpen = true;
       Configuration.pageLoadStrategy = "eager";
       Configuration.baseUrl = "https://github.com/";
   }
