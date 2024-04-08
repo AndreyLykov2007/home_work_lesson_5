@@ -4,7 +4,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Selenide.*;
 
-public class ComandDragAndDrop {
+public class CommandDragAndDrop {
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
